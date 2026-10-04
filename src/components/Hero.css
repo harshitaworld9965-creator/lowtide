@@ -1,0 +1,16 @@
+.hero {
+  min-height: calc(100vh - 82px); /* ← THE NEW LINE: full screen minus the navbar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  padding: 16px;
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 64px;
+  padding: 16px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  font-size: 32px;
+  align-items: center;
+}
+.bar {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--text);
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

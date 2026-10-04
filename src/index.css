@@ -1,0 +1,32 @@
+:root {
+  --bg : #000000;
+  --text: #f3f2ed;
+  --font-display: "Inter Tight", sans-serif;
+  --font-body: "Inter Tight", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+
+}
+
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.menu {
+  font-size: 32px;
+  line-height: 1;
+}
