@@ -1,0 +1,27 @@
+.project-card {
+  width: 360px;
+  padding: 16px;
+}
+
+.project-image {
+  aspect-ratio: 5 / 4;
+  background: #3a5a40;
+  border-radius: 6px;
+}
+
+.project-info {
+  margin-top: 12px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.project-category {
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 0;
+}
