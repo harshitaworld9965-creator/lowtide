@@ -1,0 +1,71 @@
+.service {
+  --service-bg: #1f2a24;
+  --service-accent: #e9d8b4;
+  background: var(--service-bg);
+  color: var(--service-accent);
+  padding: 80px 16px;
+}
+
+.service-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+
+.service-tabs {
+  display: inline-flex;
+  gap: 4px;
+  margin-top: 40px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+}
+
+.tab {
+  padding: 10px 16px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.tab-active {
+  opacity: 1;
+}
+
+.service-text {
+  max-width: 780px;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 32px 0 0;
+}
+
+.service-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  font-size: 24px;
+}
+
+.meta-detail {
+  opacity: 0.5;
+}
+
+.meta-price {
+  font-weight: 700;
+  padding-left: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-button {
+  display: inline-block;
+  margin: 48px 0 24px;
+  padding: 16px 32px;
+  background: #f3f2ed;
+  color: #000000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+}
